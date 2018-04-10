@@ -11,7 +11,7 @@ web前段构造
 		background-color:#fff;
 	      }
 	    .bubble{
-	    	width:700px;
+	    	width:1360px;
 	    	height:300px;
 	    	background-color:burlywood;
 	    	margin:10px auto 100px auto 0;
@@ -24,21 +24,28 @@ web前段构造
 	        	width: 100px;
 	        	height: 100px;
 	        	border-radius: 50%;	
+	        }  
+	        .abc3{
 	        	background-color: #222222;
 	        }
 	        .abc2{
 	        	animation:move 2s infinite alternate ease-in-out;
 	        	background-color: #700000;
 	        }
-	        	
+	        	.abc1{margin-left:430px;
+	        	animation:move 2s infinite alternate ease-in-out;
+	        	background-color: #fff;
+	        }
 	      
 	         @keyframes move{	
 	        	from{
-	        		box-shadow: 100px 00px 0px #065099;
+	        		box-shadow: 100px 100px 0px #065099;
 	        	}
 	        	to{
-	        		box-shadow: -100px 00px 0px #675408;
-	        	}	
+	        		box-shadow: 100px -100px 0px #675408;
+	        	}
+	        	
+	        	pop()	
 	        }
 	</style>
 	</head> 
