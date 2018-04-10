@@ -26,7 +26,7 @@ web前段构造
 	        	border-radius: 50%;	
 	        }  
 	        .abc3{
-	        	background-color: #222222;
+	        	background-color: #675408;
 	        }
 	        .abc2{
 	        	animation:move 2s infinite alternate ease-in-out;
@@ -34,41 +34,37 @@ web前段构造
 	        }
 	        	.abc1{margin-left:430px;
 	        	animation:move 2s infinite alternate ease-in-out;
-	        	background-color: #fff;
+	        	background-color: #065099;
 	        }
 	      
 	         @keyframes move{	
 	        	from{
-	        		box-shadow: 100px 100px 0px #065099;
+	        		box-shadow: 100px 100px 0px #675408;
 	        	}
 	        	to{
-	        		box-shadow: 100px -100px 0px #675408;
+	        		box-shadow: 100px -100px 0px #065099;
 	        	}
-	        	
-	        	pop()	
 	        }
 	</style>
 	</head> 
 	<body>
-		hj
+		<center><b><i>欢迎访问闲置网!</i></b></center>
 		<div class="bubble" align="center">
-			<div class="abc1">
-				<br /><br />
-				 <b>闲</b>  
+			<div class="abc1"><br />
+				<font size="9" face="楷体">闲</font>
 			</div>
 			&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 			&nbsp; &nbsp; 
-			<div class="abc2">
-				<br /><br />
-				 <b>置</b>
+			<div class="abc2"><br />
+				<font size="9" face="楷体">置</font>
 			</div>
 			&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 			&nbsp; &nbsp; 
-			<div class="abc3">
-				<br /><br />
-				<b size="677">网</b>
+			<div class="abc3"><br />
+				<font size="9" face="楷体">网</font>
 			</div>
 			 <br />
 		</div>
+		
 	</body>
 </html>
