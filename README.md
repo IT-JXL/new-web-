@@ -62,9 +62,15 @@ web前段构造
 			&nbsp; &nbsp; 
 			<div class="abc3"><br />
 				<font size="9" face="楷体">网</font>
-			</div>
-			 <br />
-		</div>
+			</div> <br />
+		</div><br /><br />
+		<form action="">
+		&nbsp;&nbsp;&nbsp;&nbsp;用户名：<input type="text" /><br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;密码：<input type="password" /><br /><br />&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="" name="log in" value="登录" />&nbsp;&nbsp;
+		<input type="reset" id=""  name="reset" value="重置" />&nbsp;&nbsp;
+		<input type="submit" id="" name="register" value="注册" />
+		</form>
 		
 	</body>
 </html>
